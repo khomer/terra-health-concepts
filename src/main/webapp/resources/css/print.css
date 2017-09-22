@@ -1,0 +1,46 @@
+
+@media print {
+	html,
+	body {
+	    color: #000;
+	    font-family: 'Lato', 'Arial', sans-serif; 
+	    font-weight: 300;
+	    font-size: 16px;
+	    overflow: hidden; 
+	    margin-top: 0 !important;
+	}	
+	.jumbotron-common, .jumbotron-directions, .jumbotron-schedule, footer {
+		display: none;
+	}
+	
+	.section-features p, 
+	.book-recommendations p,
+	.section-product .skin-care-right, 
+	.section-product .supplements-left, 
+	.section-services p, 
+	.section-about-dr p, 
+	.section-about-practice p, 
+	.section-about-practice ul li {
+		width: auto;    
+		padding: 0;
+		border: 0;
+		float: none;
+		margin: 0 5% 0 0;
+		position: static; 
+		overflow: visible; 
+	}
+	
+	
+	/* Directions */
+	#directions {
+		margin: 0;
+	}
+	.jumbo-directions, #office-photos {
+		display: none;
+	}
+	.section-directions .map-size {
+		margin-top: -50px;
+	}
+
+}
+

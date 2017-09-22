@@ -1,0 +1,923 @@
+/*====================================================
+	COLOR SCHEMA: http://www.december.com/html/spec/color1.html
+    BASIC SETUP
+======================================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: #000;
+    font-family: 'Lato', 'Arial', sans-serif;     
+    font-weight: 300;
+    font-size: 18px;
+    overflow-x: hidden;  
+}
+h1 {
+	font-size: 33px;
+	font-weight: 400;
+}
+
+.row {
+    max-width: 1140px; 
+    margin: 0 auto !important;    
+}
+
+section {
+	padding: 70px 0;
+}
+
+
+/*====================================================
+	###########		BOOTSTRAP MAIN MENU  	################
+======================================================*/
+.navbar-header .logo {
+	width: 350px;
+	height: 86px;
+	margin-right:  50px;
+	padding: 0;
+}
+
+.navbar-header .logo img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0 !important;
+}
+
+nav {
+	background-color: #fff !important;
+	border: none !important;
+	box-shadow: 0 3px 6px #7c7c7c;
+}
+
+.navbar .nav>.active> a {
+	background-color: #d7d7d7 !important;
+	border-radius: 2px;
+	margin: 30px 2px 0 2px;
+}
+.navbar-nav li a:link {
+	color: #000 !important;
+	font-weight: 300;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 30px 2px 0 2px;
+}
+
+.navbar-nav li a:visited {
+	color: #000 !important;
+	text-decoration: none;
+	margin: 30px 2px 0 2px;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active > a:hover {
+	background: none;
+	color: #000 !important;
+	margin: 30px 2px 0 2px;
+}
+
+.navbar-collapse, .navbar-collapse > .nav> .dropdown-menu > .dropdown-toggle {
+    max-height: none !important;
+}
+
+/*====================================================
+					CAROUSEL
+====================================================*/
+
+.carousel-caption{
+    z-index: 10;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    min-width: 100%;
+    height: auto;
+}
+.carousel-inner > .item{
+    height: 450px;   
+}
+
+.home-carousel {
+	margin: 0;
+	padding: 0;	
+}
+.carousel-inner > .item{
+    height: 460px;
+    margin-top: 86px;
+}
+.carousel-inner > .item > .container > .carousel-caption {
+	padding-bottom: 180px;
+	margin: 0;
+}
+.carousel-inner > .item > .container > .carousel-caption h1 {
+	color: white;
+	font-size: 47px;
+	font-style: italic;
+	font-weight: bold;
+	text-transform: none;
+}
+
+.item-0 {
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/thyme-aroma-oil.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/thyme-aroma-oil.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.item-1 {
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-common.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-common.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*====================================================
+                        HOME
+======================================================*/
+ .jumbo-1 {
+	background-color: #e0c35d; 
+	padding: 30px;
+	margin: 0;
+}
+.jumbo-1 h5 {
+	font-size: 105%;
+	text-transform: uppercase;
+	font-weight: 400;
+} 
+.mini-box {
+	margin-top: 20px;
+	padding-left: 20px;
+	border-left: 1px solid #444; 
+}
+
+#home {
+	background-color: white;
+	padding: 70px 0 70px 0;
+	margin: 0;
+}
+#home img {
+	display: block;
+	margin: 0 auto;
+}
+#home img:hover {
+	-webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    transition: 1s;
+} 
+.profile .fa-stethoscope {
+	font-size: 140%;
+	padding-right: 10px;
+}
+.profile h1 {
+	padding: 0 0 20px 10px;
+}
+.profile h5 {
+	font-size: 105%;
+	font-weight: 300;
+	padding: 5px 0;
+}
+.profile span {
+	font-weight: 400;
+	padding: 0 10px;
+}
+.profile .btn-success {
+	border-radius: 0;
+	text-transform: uppercase;
+	padding: 10px;
+	margin: 20px 0 0 10px;	
+}
+
+.jumbo-2 {
+	background: #fafafa;
+	padding: 50px 0 60px 0;
+	margin: 0;
+}
+.jumbo-2 .fa-home {
+	font-size: 140%;
+	padding-right: 10px;
+}
+.jumbo-2 span {
+	color: darkorange;
+}
+.jumbo-2 h4 {
+	color: #383838;
+	font-size: 125%;
+	padding: 10px 0 40px 0;
+	text-align: center;
+}
+.jumbo-2 a { 
+	display: block;
+	color: #333;
+	font-size: 160%;
+	font-weight: 400;
+	padding: 0 0 30px 0;
+	transition: 0.5s;
+	border-bottom: 1px solid #A9A9A9; 
+	margin-bottom: 30px;
+}
+.jumbo-2 a:hover { 
+	text-decoration: none;
+	color: #5cb85c;
+	transition: .5s ease;
+}
+.jumbo-2 img {
+	margin: 50px 0 20px 25px;
+}
+
+
+/*====================================================
+	PRODUCTS & SERVICES
+====================================================*/	
+.jumbotron-services {
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-services.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-services.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;     
+    margin-top: 86px;
+ }
+ .jumbotron-services h1 { 
+	color: white;
+	font-size: 47px;
+	font-style: italic;
+	font-weight: bold;
+	text-transform: none;
+	padding: 140px 0 50px 0;
+} 
+
+#products {
+	padding: 0;
+}
+
+ #products .container-fluid, #services .container-fluid  {	    
+	background-color: #fafafa;
+    background: -webkit-linear-gradient(#fafafa, white);
+    background: -o-linear-gradient(#fafafa, white);
+    background: -moz-linear-gradient(#fafafa, white);
+	background: linear-gradient(#fafafa, white);
+	border-bottom: 1px solid #e8e8e8;
+	padding: 20px 0 20px 0;
+	margin-bottom: 70px;
+ }
+ 
+/* Skin Care Box */
+#products .skin-care-left {	
+	width: 620px;
+	height: 260px;
+	padding: 0;
+	margin: 0 0 15px 15px;
+}
+#products .skin-care-left img,  
+#products .supplements-right img {	
+	width: 100%;
+	height: 100%;
+}
+
+#products .skin-care-right {
+	width: 420px;
+	height: 260px;
+	font-size: 17px;
+	color: #fff;	
+	background-color: #CC99CC;
+	padding: 20px 30px;
+	margin-left: 15px;
+}
+
+/* Supplements Box */
+#products .supplements-left {
+	width: 620px;
+	height: 260px;
+	background-color: #999;
+	padding: 10px 20px 20px 20px;
+	margin-left: 15px;	
+	font-size: 17px;
+	color: white;
+}
+#products .supplements-right {
+	width: 420px;
+	height: 260px;
+	padding: 0;
+	margin-left: 15px;
+}
+
+ #services .list-group {
+ 	margin-left: 5px;
+ }
+  #services h4 {
+  	font-size: 125%;
+  	font-weight: 400;
+  	text-transform: uppercase;
+  	margin: 0 0 20px 0;
+  }
+  
+ #services  .specialty-labs {
+  	padding-top: 40px;
+  }
+  
+  #services .list-group-item.active, 
+  #services .list-group-item.active:focus, 
+  #services .list-group-item.active:hover {
+ 	background-color: white !important;
+ 	border: 1px solid #d7d7d7 !important;
+  }
+  
+   #services  .list-group-item.active:hover {
+	 	background-color: #d7d7d7 !important;
+	 	  -webkit-transition: all 1s ease-in-out;
+	  -moz-transition: all 1s ease-in-out;
+	  -o-transition: all 1s ease-in-out;
+	  transition: all 1s ease-in-out;
+  }
+  
+/*  ANIMATE *********************/
+ .skin-care-left,
+.skin-care-right,
+.supplements-left,
+.supplements-right {
+    -webkit-animation-duration: .5s;
+     animation-duration: .5s;
+}
+.skin-care-left {
+	 -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+}
+.skin-care-right {
+	 -webkit-animation-delay: .4s;
+    animation-delay: .4s;
+}
+
+.supplements-left {
+	 -webkit-animation-delay: .6s;
+    animation-delay: .6s;
+}
+.supplements-right {
+	 -webkit-animation-delay: .8s;
+    animation-delay: .8s;
+}
+
+/*====================================================
+					ABOUT DR ALLYN 
+====================================================*/
+
+ .jumbotron-about-dr {
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-about-dr-allyn.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-about-dr-allyn.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 450px;
+	margin-top: 86px;
+ }
+.jumbotron-about-dr h1 { 
+	color: white;
+	font-size: 47px;
+	font-style: italic;
+	font-weight: bold;
+	text-transform: none;
+	padding: 140px 0 50px 0;
+} 
+ 
+ 
+#about-dr {
+    height: auto;
+	padding: 0 0 50px 0;
+}
+
+#about-dr .fa-stethoscope {
+	font-size: 140%;
+	padding-right: 10px;
+}
+#about-dr .container-fluid {
+	background-color: #fafafa;
+    background: -webkit-linear-gradient(#fafafa, white);
+    background: -o-linear-gradient(#fafafa, white);
+    background: -moz-linear-gradient(#fafafa, white);
+	background: linear-gradient(#fafafa, white);
+	border-bottom: 1px solid #e8e8e8;
+	padding: 20px 0 20px 0;
+	margin: 0;
+}
+
+#about-dr .container h3 {
+	padding: 20px 0 0 0;
+} 
+#about-dr .container h3::first-letter, #practice h3::first-letter {
+	font-size: 135%;
+}
+
+#about-dr img {
+	margin-top: 100px;
+		-webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(40%);
+} 
+
+#practice {
+ 	padding: 0 0 60px 0;
+}
+#practice .container-fluid {
+	background: #98ba5c; 
+	background: -webkit-linear-gradient(left, #98ba5c, white); 
+	background: -o-linear-gradient(right, #98ba5c, white); 
+	background: -moz-linear-gradient(right, #98ba5c, white); 
+	background: linear-gradient(to right, #98ba5c, white); 
+	padding: 10px 0 20px 0;
+	margin-bottom: 60px;
+}
+#practice h3, #practice p {
+	padding-right: 40px;
+}
+
+
+/* ----------------------------------------------- */
+/* TESTIMONIALS  PAGE */
+/* ----------------------------------------------- */
+#testimonials {
+	padding: 0;
+	margin-top: 86px;
+}
+#testimonials  .fa-tripadvisor {
+	font-size: 140%;
+	padding-right: 15px;
+}
+#testimonials  .bg-header { 
+	background-color: #474747;
+	padding: 40px 0 60px 0;
+	margin: 170px 0 60px 0;
+}
+#testimonials  .fa-tripadvisor {
+	color: #9abb60;
+	font-size: 70px;
+	padding-right: 20px;
+}
+#testimonials  h1 {
+	color: #9abb60;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+#testimonials h5 {
+	font-size: 110%;
+	font-weight: 400;
+	padding: 5px 0;
+	}
+#testimonials .pagination {
+	padding: 40px 0;
+}
+
+.p-text {
+	font-size: 120%
+}
+.p-link {
+	margin: 10px 15px; 
+}
+#testimonials  .bg-white {
+	background-color: white;
+  	padding: 30px 0 30px 0;
+  	margin: 0;
+}
+#testimonials  .bg-gray {
+   	background-color: #fafafa;
+  	padding: 30px 0 30px 0;
+  	margin: 0;
+}
+#testimonials  blockquote {
+ 	color: #000;
+ 	width: 72%;
+	line-height: 150%;
+	font-size: 95%;
+	border: 0;
+	margin-left: -20px;
+}
+ #testimonials  .customer-name {
+	font-size: 30px;
+	font-weight: 400;
+	color: orange;
+	text-transform: uppercase;
+ }
+#testimonials  .customer-name span {
+	color: black;
+	font-size: 18px;
+	text-transform: none;
+}
+
+/*====================================================
+					DIRECTIONS 
+====================================================*/
+#directions {    
+	height: auto;
+	margin: 70px 0 0 0;
+	padding-bottom: 0;
+}
+#directions .fa-home {    
+	font-size: 140%;
+	padding-right: 10px;
+}
+
+.jumbo-directions {
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-directions.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-directions.jpg); 
+	background-position: center;
+    background-size: cover;
+   	background-repeat: no-repeat;
+   	background-attachment: fixed;
+    height: 300px;
+    margin: 60px 0;
+ } 
+.jumbo-directions .content {
+	background: rgba(0, 0, 0, 0.4);
+	color: white;
+	padding: 20px 0;
+	margin: 0;
+	margin-top: 50px;
+	text-align:center;
+}
+
+#directions .btn-schedule {
+	padding: 100px 0 60px 20px;
+}
+#directions .container-fluid  h3 {
+	font-size: 190%;
+	text-transform: capitalize;
+}
+#directions .container {
+	padding-top: 20px;
+}
+#directions .container h3 {
+	font-size: 160%;
+	text-transform: capitalize;
+	padding-bottom: 15px;
+}
+#directions .container img:hover {
+	opacity: 0.9;
+}
+#directions .map-size {
+	width: 510px;
+	height: 350px;
+	border: 1px solid #D3D3D3;
+}
+#office-photos  {
+	padding-bottom: 80px;
+	margin: 0;
+}
+
+#office-photos h3 {
+	font-size: 160%;
+	padding: 0 0 25px 0;
+	margin: 0;
+}
+
+#office-photos .row [class*=col-] {
+	padding: 6px;
+	margin: 0;
+}
+#office-photos .img-wrapper {
+    overflow: hidden;
+}
+#office-photos .img-wrapper img {
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    transition: transform .5s ease, -webkit-transform .5s ease;
+}
+#office-photos .img-wrapper img:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+ /*====================================================
+					SITE MAP 
+====================================================*/
+#site-map {
+	min-height: 1050px;
+}
+#site-map .jumbotron,  #faq .jumbotron {
+	background: #e8e8e8;
+    background: -webkit-linear-gradient(#e8e8e8, white);
+    background: -o-linear-gradient(#e8e8e8, white);
+    background: -moz-linear-gradient(#e8e8e8, white);
+	background: linear-gradient(#e8e8e8, white); 
+	padding: 70px 0 0 0; 
+	margin: 0;
+}
+#site-map .fa-map-signs, #faq .fa-quora  {
+	font-size: 120%;
+	padding-right: 10px;
+}
+#site-map h1, #faq h1 {
+	font-size: 33px;
+	padding-bottom: 60px;
+}
+
+#site-map .row {
+	padding-bottom: 30px;
+}
+#site-map h3 {
+	background: #69913b; 
+	background: -webkit-linear-gradient(left, #69913b, white);
+	background: -o-linear-gradient(right, #69913b, white); 
+	background: -moz-linear-gradient(right, #69913b, white); 
+	background: linear-gradient(to right, #69913b, white);	
+	color: white;
+	font-size: 150%;
+	padding: 15px 0 15px 30px;
+	margin: 0 0 20px 0; 
+}
+#site-map a {
+	border: 1px solid #69913b;
+	border-radius: 0;
+	font-size: 110%;
+	width: 100%;
+	line-height: 80px;
+	color: #000; 
+	text-transform: uppercase;
+}
+ #site-map a:hover {
+	background-color:#cfde8b;
+}
+
+/*====================================================
+					FAQ
+====================================================*/
+#faq .container h4 {
+	font-size: 120%;
+	padding: 10px;
+}
+#faq .email-box {
+	background-color: orange;
+	height: 200px;
+	padding: 35px 0;color: white;
+	text-align: center;
+	margin-bottom: 80px;
+}
+#faq .btn-default {
+	margin-top: 10px;
+	border: 0;
+	border-radius: 0;
+}
+#faq .panel-heading {
+	width: 100%;
+	padding: 0;
+}
+#faq .panel-heading:hover {
+	background-color: #474747;
+	color: white;
+}
+#faq .panel-title .panel-title-block {
+	display: inline-block;
+	width: 100%;
+	margin: 15px 15px 10px 15px;
+}
+#faq .container .panel-body p {	
+	padding: 10px 10px 0 10px;
+}
+
+#faq .credit-cards {
+	margin: 20px 10px;
+}
+#faq .credit-cards img {
+	padding: 0 3px;
+}
+
+#faq .panel-group {
+	min-height: 450px;
+} 
+
+#faq .panel-body ol {
+ 	margin: 0 26px;
+ 	padding: 20px 0;
+ }
+#faq .panel-body ol li {
+	padding: 0 0 20px 5px;
+}
+
+/*====================================================
+					FOOTER 
+====================================================*/
+footer {
+	position: relative;
+	background-color: #474747;   
+    padding: 0;
+    padding: 60px 0 70px 0;
+    color: white;
+}
+footer .help-info {
+	padding: 20px 0 0 0; 
+	margin-bottom: 30px;
+}
+.footer-nav li {
+	list-style: none;
+    display: inline; 
+    margin-left: 25px;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited {
+    text-decoration: none;
+	border: 0;
+	color: white;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+
+#go-top {
+    width: 58px;
+	height: 58px;
+	line-height: 58px;   
+    background-color: #000;
+    position: absolute;
+    bottom: 240px;
+    right: 150px;
+}
+#go-top a.fill-go-top {
+    display: block;
+    width: 58px;
+	height: 58px;
+	line-height: 58px;
+	color: white;
+	text-align: center;
+  	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+#go-top a.fill-go-top:hover {
+	background-color: orange;
+   	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+} 
+
+footer p {
+	color: white;
+	font-size: 90%;
+	padding: 20px 0 10px 4px;
+}
+
+footer .v-line {
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+
+.btn-base {
+  border: 0;
+  border-radius:0;
+  width: 100px;
+  height: 15px;
+  padding: 0;
+  margin: 24px 0 0 0;
+}
+.btn-purple {
+  background-color: #63164c;
+}
+.btn-green {
+  background-color: #419324;
+}
+.btn-orange {
+  background-color: orange;
+}
+
+
+/*====================================================
+					MAKE AN APPOINTMENT
+====================================================*/
+
+.appointment-banner {
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-schedule.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-schedule.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	height: 300px;
+	padding: 0;
+	margin: 70px 0 60px 0; 
+} 
+.appointment-banner h1 {
+	background: #e7e8da;
+	font-size: 35px;
+	color: #6ea842;
+	padding: 20px;
+	margin-top: 80px;
+	text-align:center;
+}
+#schedule {
+	background: #fafafa;
+    background: -webkit-linear-gradient(#fafafa, white);
+    background: -o-linear-gradient(#fafafa, white);
+    background: -moz-linear-gradient(#fafafa, white);
+    background: linear-gradient(#fafafa, white);
+ 	padding-bottom: 60px;
+	margin-top: 60px; 
+}
+#schedule .fa-phone {
+	font-size: 140%;
+	padding-right: 10px;
+}
+#schedule h1 {
+	margin-bottom: 50px;
+}
+#schedule  h4 {
+	font-size: 130%;
+	padding: 10px 0;
+}
+#schedule ul {
+	padding-bottom: 20px;
+}
+#schedule ul li {
+	list-style-type: square;
+	font-size: 110%;
+	margin-left: 25px;
+} 
+#schedule .contact-info {
+	background-color: #cfde8b;
+	width: 460px;
+	height: 500px;
+	margin: 0 15px 15px 15px;
+	padding: 30px;
+}
+#schedule .office-hours {
+	width: 460px;
+	height: 245px;
+	margin-bottom: 15px;
+	padding: 30px;
+}
+#schedule .office-hours p {
+	padding-bottom: 10px;
+}
+#schedule .img-wrapper {
+	width: 460px;
+	height: 240px;
+	margin-left: 15px;
+}
+#schedule .pyfv-wrapper {
+	padding: 30px;
+}
+#schedule .payment-method {
+	background-color: #9dba4c;
+	width: 460px;
+	height: 270px;
+	padding: 30px;
+	margin-left: 15px;
+}
+
+#schedule .btn-success {
+	border-radius: 0;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+#schedule .list-group {
+	margin-left: -20px;
+}
+#schedule .list-group > .active {
+	background-color: orange;
+	border:0;
+}
+#schedule .list-group  h5 { 
+	font-size: 100%;
+}
+#schedule .fa-calendar-check-o {
+	font-size: 160%;
+	padding: 0 10px 20px 5px;
+}
+
+/*  ANIMATE *********************/
+.contact-info,
+.pyfv-wrapper,
+.office-hours,
+.img-wrapper, 
+.payment-method {
+    -webkit-animation-duration: .5s;
+     animation-duration: .5s;
+}
+.contact-info {
+	 -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+}
+.pyfv-wrapper {
+	 -webkit-animation-delay: .4s;
+    animation-delay: .4s;
+}
+.office-hours {
+	 -webkit-animation-delay: .6s;
+    animation-delay: .6s;
+}
+.img-wrapper {
+	 -webkit-animation-delay: .8s;
+    animation-delay: .8s;
+} 
+.payment-method {
+	 -webkit-animation-delay: .10s;
+    animation-delay: .10s;
+}

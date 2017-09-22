@@ -1,0 +1,212 @@
+ 
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {	
+	.jumbotron-services h1, 
+	.jumbotron-about-dr h1,
+    .carousel-inner > .item > .container > .carousel-caption h1 {
+    	font-size: 40px;
+    	text-align: center;
+    	padding-top: 200px;
+    }
+    
+    #products .skin-care-right, #products .supplements-left  {
+    	width: 620px;
+    	height: auto;
+    }
+     #products .skin-care-left, #products .supplements-right {	
+    	display: none;
+    }
+    #schedule .contact-info, #schedule .office-hours, #schedule .pyfv-wrapper, #schedule .payment-method, #schedule .img-wrapper {
+    	width: 100%;
+    	heigth: atuo;
+    	margin: 0;    	
+    }
+    #schedule .img-wrapper  img {
+    	width: 100%;
+    	margin: 0 auto;
+    }  
+    #schedule, #directions {    
+    	margin-top: 120px;
+    }
+    #directions .map-size {
+    	width: 100%;
+    	height: 360px;
+    }
+}
+
+
+@media only screen and (max-width: 991px) { 
+    body { 
+    	font-size: 16px; 
+    }
+    h1, #site-map h1, #faq h1 {
+    	font-size: 30px;
+    }
+        
+    .jumbotron-services h1, 
+	.jumbotron-about-dr h1,
+    .carousel-inner > .item > .container > .carousel-caption h1 {
+    	font-size: 37px;
+    	text-align: center;
+    	padding-top: 200px;
+    }
+    #products .skin-care-left, #products .supplements-right {	
+       	display: none;
+    }
+    #products .skin-care-right, #products .supplements-left {	
+    	width: 100%;
+    	height: auto;
+    	margin: 0;
+    }
+   	#practice img {
+     	margin-top: 20px;
+     }
+    
+     #practice h3, #practice p {
+     	padding-right: 0;
+     }
+     #testimonials  .fa-tripadvisor {
+     	font-size: 50px;
+     }
+     
+    #schedule, #directions {    
+    	margin-top: 90px;
+    }
+  	#testimonials  blockquote {
+  		width: 100%;
+    }
+    .appointment-banner {
+    	height: auto;
+    }
+    .appointment-banner  h1 {
+        font-size: 27px;
+    }
+    
+    #site-map h1, #faq h1 {
+    	padding-top: 40px;
+    }
+    
+    #schedule .contact-info, #schedule .office-hours, #schedule .pyfv-wrapper, #schedule .payment-method, #schedule .img-wrapper {
+    	width: 100%;
+    	heigth: atuo;
+    	padding: 20px;
+    }
+    #schedule .img-wrapper  img {
+    	width: 100%;
+    	margin: 0 auto;
+    }  
+   
+    #directions .map-size {
+    	width: 100%;
+    	height: auto;
+    } 
+    
+    #faq .faq-img {
+    	width: 50%;
+      	margin: 0 auto;
+    }
+
+   #site-map .jumbotron,  #faq .jumbotron {
+    	padding: 80px 0 0 0;
+    }
+    footer {
+    	padding: 5px 0 30px 0;
+    }
+    footer  .v-line {
+    	border-bottom: 0;
+    } 
+    
+    #go-top {
+	    display: none;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+
+	/* Navbar */
+	/* .navbar-collapse {
+		background-color: #383838;
+	} */
+	
+	.navbar-toggle {
+		background-color: #383838;
+	}
+	
+	/* Home */
+	#home img {
+		width: 200px;
+		height: 266px;
+	}
+	.jumbo-2 h2 {
+		font-size: 160%;
+	}
+	.jumbo-2 img {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.jumbotron-services, 
+	.jumbotron-about-dr { 
+		width: 100%;
+		height: auto; 
+	}
+    .jumbotron-services h1, 
+	.jumbotron-about-dr h1,
+    .carousel-inner > .item > .container > .carousel-caption h1 {
+    	font-size: 30px;
+    	padding-top: 60px;
+    }
+    
+ 	/* Products & Services */
+    #products .container-fluid, #services .container-fluid  {	    
+     	margin-bottom: 50px;
+     }
+     #services  {	    
+           padding:  20px 0 40px 0;
+     }
+     
+     /* About Dr. Allyn */
+     #about-dr img,  #practice img {
+     	display: none;
+     }
+     #about-dr .container h3::first-letter, #practice h3::first-letter {
+     	font-size: 100%;
+     }
+     #practice .container-fluid {
+     	margin-bottom: 0;
+     }
+    
+    /* Make an Appointment */
+	#schedule .contact-info, #schedule .office-hours, #schedule .pyfv-wrapper, #schedule .payment-method, #schedule .img-wrapper {
+		width: 100%;
+    	height: auto;
+    	margin: 0;
+    }
+	#office-photos .img-wrapper img {
+    	width: 60%;
+    	height: auto;
+    }
+    #office-photos {
+    	margin-top: -60px;
+    }
+    
+    #site-map h1, #faq h1 {
+    	padding: 0 0 30px 0;
+    }
+}
+
+/* ----------------------------------------------- */
+/* SMALL PHONES: FROM 0 TO 480PX */
+/* ----------------------------------------------- */	
+
+@media only screen and (max-width: 480px) {
+    #office-photos .img-wrapper img {
+    	width: 100%;
+    	height: auto;
+    }
+   #faq .fa-quora, #faq img, #site-map .fa-map-signs {
+    	display: none;
+    }
+
+} 
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+ 
+	<definition name="default" template="/WEB-INF/layouts/default.jsp">
+		<put-attribute name="title" value="Welcome to Tera Health Concepts" />
+		<put-attribute name="header" value="/WEB-INF/tiles/header.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp" />
+	</definition>
+
+	<definition name="homepage" extends="default">
+		<put-attribute name="content" value="/WEB-INF/tiles/home.jsp" />	
+	</definition>
+	
+	<definition name="services" extends="default">
+		<put-attribute name="title" value="Products and Services" />
+		<put-attribute name="content" value="/WEB-INF/tiles/services.jsp" />	
+	</definition>
+
+	<definition name="about-dr-allyn" extends="default">
+		<put-attribute name="title" value="About Dr. Allyn" />
+		<put-attribute name="content" value="/WEB-INF/tiles/about-dr-allyn.jsp" />	
+	</definition>
+	
+	<definition name="testimonials" extends="default">
+		<put-attribute name="title" value="Testimonials" />
+		<put-attribute name="content" value="/WEB-INF/tiles/testimonials.jsp" />	
+	</definition>
+
+	<definition name="directions" extends="default">
+		<put-attribute name="title" value="Directions" />
+		<put-attribute name="content" value="/WEB-INF/tiles/directions.jsp" />	
+	</definition>
+	
+	<definition name="appointment" extends="default">
+		<put-attribute name="title" value="Directions" />
+		<put-attribute name="content" value="/WEB-INF/tiles/appointment.jsp" />	
+	</definition>
+	
+	<definition name="site-map" extends="default">
+		<put-attribute name="title" value="Site Map" />
+		<put-attribute name="content" value="/WEB-INF/tiles/site-map.jsp" />	
+	</definition>
+	
+	<definition name="faq" extends="default">
+		<put-attribute name="title" value="Frequently Asked Question" />
+		<put-attribute name="content" value="/WEB-INF/tiles/faq.jsp" />	
+	</definition>
+		
+</tiles-definitions>
