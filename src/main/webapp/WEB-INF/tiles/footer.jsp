@@ -2,11 +2,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <footer>
-	<div class="container-fluid">
-		<div id="go-top">
-			<a class="smoothScroll fill-go-top" href="#top"><i 	class="fa fa-angle-up fa-2x" aria-hidden="true"></i></a>
-		</div>
-	</div>
 	<div class="container">	
 		<div class="row">
 			<div class="col-sm-6 col-md-3">
@@ -44,7 +39,5 @@
 <script src="resources/js/wow.min.js"></script>
 
 <script src="resources/js/jquery.magnific-popup.min.js"></script>
-
-<script src="resources/js/smoothscroll.js"></script>
 
 <script src="resources/js/custom.js"></script>

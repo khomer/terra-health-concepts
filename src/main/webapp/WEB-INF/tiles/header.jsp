@@ -8,7 +8,7 @@
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
 	        </button>
-	        <a class="navbar-brand logo" href="home.html"><img src="resources/img/logo.png"  class="img-responsive" alt=""></a>	
+	        <a class="navbar-brand logo" href="<c:url value='/home' />"><img src="resources/img/logo.png"  class="img-responsive" alt=""></a>	
 		</div> 
 	    <div class="navbar-collapse collapse">		
 			<ul class="nav navbar-nav">
@@ -22,7 +22,7 @@
 	    </div>  
 	</nav>
 	<!-- End Navigation -->
-	
+		
 
 	
 
