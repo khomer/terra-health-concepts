@@ -42,7 +42,6 @@
 				<a href="<c:url value='/site-map' />" role="button" class="btn btn-outline-success">Site Map</a>
 			</div>
 		</div>
-		<div class="row">	<div class="col-md-10"><br><h3></h3></div></div>
 	</div>
 </section>
 

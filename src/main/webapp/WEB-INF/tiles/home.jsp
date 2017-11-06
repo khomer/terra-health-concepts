@@ -17,14 +17,14 @@
 			<div class="item item-0 active">
 				<div class="container active">
 					<div class="carousel-caption">
-						<h1>Healthy is Not A Goal... It's A Way of Living</h1>
+						<h1>SAME DAY APPOINTMENT &amp; <br>WALK-IN APPOINTMENT ARE AVAILABLE</h1>
 					</div>
 				</div>
 			</div>
 			<div class="item item-1">
 				<div class="container active">
 					<div class="carousel-caption">
-						<h1>Good Health is a Key Component of Contentment</h1>
+							<h1>SAME DAY APPOINTMENT &amp; <br>WALK-IN APPOINTMENT ARE AVAILABLE</h1>
 					</div>
 				</div>
 			</div>
@@ -45,22 +45,19 @@
 
 <div class="jumbotron jumbotron-fluid jumbo-1">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-4">
-				<div class="mini-box">
-					<h5>Questions? 480-816-1600<br>Fax: 480-837-3050</h5>
-				</div>
+		<div class="row">	
+			<div class="col-md-6">
+				<ul class="mini-box">
+					<li><h2><i class="fa fa-superpowers" aria-hidden="true"></i></h2></li>
+					<li><p>Saturday &amp; evening appointments are available.</p></li>
+				</ul>
 			</div>
-			<div class="col-md-4">
-				<div class="mini-box">
-					<h5>Saturday &amp; evening appointments are available.</h5>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="mini-box">
-					<h5>House calls (Fountain Hills only) can be arranged.</h5>
-				</div>
-			</div>
+			<div class="col-md-6">
+				<ul class="mini-box">
+					<li><h2><i class="fa fa-ravelry" aria-hidden="true"></i></h2></li>
+					<li><p>House calls  can be arranged (Fountain Hills only).</p></li>
+				</ul>
+			</div> 
 		</div>
 	</div>
 </div>
@@ -87,15 +84,14 @@
 <div class="jumbotron jumbotron-fluid jumbo-2">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-11">
-				<a href="<c:url value='/directions' />"><i class="fa fa-home" aria-hidden="true"></i>Arizona Fountain Hills Office</a>
-				<h2><span>Good Health</span> is A <span>Key</span> Component of <span>Contentment!</span></h2>
+			<div class="col-sm-12">
+				<h2><i class="fa fa-pagelines" aria-hidden="true"></i>
+				<span>Good Health</span> is A <span>Key</span> Component of <span>Contentment!</span></h2>
 				<h4>My aim is to look for the cause of your ailment, not just prescribe palliative measures.</h4>
 			</div>
-			<img  src="resources/img/bg-keyboard.jpg" class="img-responsive" alt="">
 		</div>
 	</div>
-</div>
+</div> 
 								
 
 

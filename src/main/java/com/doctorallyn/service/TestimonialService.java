@@ -15,7 +15,7 @@ import com.doctorallyn.repository.TestimonialRepository;
 public class TestimonialService {
 	
 	// The number of results we want to see on each page
-	private final static int PAGESIZE = 3;
+	private final static int PAGESIZE = 2;
 	
 	@Autowired
 	private TestimonialRepository testimonialRepository;

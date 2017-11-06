@@ -12,7 +12,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-8">
-					<h1><i class="fa fa-stethoscope" aria-hidden="true"></i>Dr. Allyn Krieger-Fiedler</h1>
+					<h1><!-- <i class="fa fa-stethoscope" aria-hidden="true"></i> -->Dr. Allyn Krieger-Fiedler, NMD </h1>
 				</div>
 			</div>
 		</div>
@@ -47,7 +47,7 @@
 	<section id="practice">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-7"><h1>My Practice</h1></div>
+				<div class="col-md-7"><h1><i class="fa fa-user-md" aria-hidden="true"></i>My Practice</h1></div>
 			</div>
 		</div>
 		<div class="container">

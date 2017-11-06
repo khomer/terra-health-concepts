@@ -2,19 +2,13 @@
 <section id="faq">
 <div class="jumbotron jumbotron-fluid">
 		<div class="container">
-			<h1><i class="fa  fa-quora" aria-hidden="true"></i>Frequently Asked Question</h1>
+			<h1><i class="fa  fa-quora" aria-hidden="true"></i> Frequently Asked Question</h1>
 		</div>
 	</div>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-12">
 				<img class="faq-img" src="resources/img/faq.jpg" class="img-responsive" alt="FAQ Photo">
-			</div>
-			<div class="col-md-4">
-				<div class="email-box">
-						<h3>For Any Questions, </h3>
-						<a href="mailto:drakfiedler@cox.net" role="button" class="btn btn-default">SEND AN EMAIL TO DR. ALLYN</a>
-				</div>
 			</div>
 		</div>
 		<div class="row">

@@ -1,4 +1,6 @@
-
+/*====================================================
+		ACTIVE MENU  
+====================================================*/
 
 $(function() {
 	var path = window.location.pathname;
@@ -10,7 +12,6 @@ $(function() {
 	$('a[href="' + this.location.pathname + '"]').parents('li,ul').addClass('active');
 	
 });
-
 
 
 /*====================================================

@@ -4,14 +4,16 @@
 	<div class="container-fluid bg-header">
 		<div class="row">
 			<div class="col-md-10 animated fadeIn">
-				<h1><i class="fa fa-tripadvisor" aria-hidden="true"></i>Take a <span style="color: orange;font-weight: 400;">look</span> at what our patients have to say</h1>
+				<h1>
+				<!-- <i class="fa fa-tripadvisor" aria-hidden="true"></i> -->
+				Take a look at what our customers have to say</h1>
 			</div>
 		</div>
 	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<img src="resources/img/herbs.jpg" class="img-responsive" alt="">
+				<img src="resources/img/herbs.jpg" class="img-responsive img-herbs" alt="">
 			</div>
 		</div>
 		<div class="row pagination">
@@ -45,7 +47,7 @@
 		</c:choose>	
 		<div class="container-fluid ${bgColor}">
 			<div class="row">
-				<div class="col-lg-10 col-md-10">
+				<div class="col-md-10">
 					<h2 class="customer-name">${testimonial.customerName} <span>. . . . .${testimonial.address}</span> </h2>
 					<blockquote>
 						${testimonial.content} 

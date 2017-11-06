@@ -24,17 +24,17 @@
 	</div>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-sm-6 skin-care-left animated fadeIn">
+			<div class="col-sm-8  skin-care-left animated fadeIn">
 				<img src="resources/img/women.jpg" alt="">
 			</div>
-			<div class="col-md-4 col-sm-6 skin-care-right animated fadeIn">
+			<div class="col-sm-4 skin-care-right animated fadeIn">
 				<h3>Skin Care</h3>
 				<p>Certified organic aloe based, paraben free, all natural
 					professional strength skin care line is available.</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-8 col-sm-6 supplements-left animated fadeIn">
+			<div class="col-sm-8 supplements-left animated fadeIn">
 				<h3>Supplements</h3>
 				<p>I have access to an extensive selection of supplements from
 					over 70 manufacturers that provide professional, high quality
@@ -45,7 +45,7 @@
 					at 8:30 a.m. and available for pick-up from the medicinary in the
 					afternoon. Your supplements can also be shipped to your home or office.</p>
 			</div>
-			<div class="col-md-4 col-sm-6 supplements-right animated fadeIn">
+			<div class="col-sm-4 supplements-right animated fadeIn">
 				<img src="resources/img/stethoscope-and-pills-on-dollars.jpg" alt="">
 			</div>
 		</div>
@@ -79,7 +79,7 @@
 			<div class="col-md-12">
 				<h4 class="specialty-labs"><i class="fa fa-bullseye" aria-hidden="true">&nbsp;</i>Specialty Labs</h4>
 			</div>
-			<div class="col-lg-4">
+			<div class="col-md-4">
 				<ul class="list-group">
 					<li class="list-group-item active">
 						<a href="https://www.gdx.net/tests/alphabetical" target="_blank">
@@ -92,7 +92,7 @@
 					<li class="list-group-item">GI Effects Microbial Ecology Profile (Stool)</li>
 				</ul>
 			</div>
-			<div class="col-lg-4">
+			<div class="col-md-4">
 				<ul class="list-group">
 					<li class="list-group-item active">
 						<a href="http://www.cyrexlabs.com/CyrexTestsArrays" target="_blank">
@@ -106,7 +106,7 @@
 					<li class="list-group-item">​Chemical Immune Reactivity Screen (Blood)</li>
 				</ul>
 			</div>
-			<div class="col-lg-4">
+			<div class="col-md-4">
 				<ul class="list-group">
 					<li class="list-group-item active">
 						<a href="https://www.spectracell.com/patients/" target="_blank">
